@@ -1,0 +1,48 @@
+Vermelho: 0 min
+Laranja: 10 min
+Amarelo: 60-50 min
+Verde: 2 h
+Azul: 4 h
+Branco: indeterminada - Geralmente não tem
+
+Identificar quantas pessoas tem na frente em cada setor;
+
+Acompanhantes de fora do hospital;
+
+Apresentar fila tanto presencialmente quanto pessoas ausentes;
+
+Sistema MV;
+
+Recepção, Triagem e Consultório;
+
+Calcular a média semanal do hospital por exemplo;
+
+
+Regra de Negócio:
+
+As Filas serão apresentadas em uma Tela de pelo menos 32 polegadas;
+Os pacientes e acompanhantes devem ter acesso à fila detalhada de espera por meio do código de acesso;
+O Tempo estimado geral deve ser apresentado na tela;
+O tempo de espera específico de cada paciente pode ser obtido através do whatsapp;
+O tempo estimado deve ser baseado na mediana do tempo de atendimento dos últimos 7 dias;
+O tempo específico de atendimento de cada paciente deve ser baseado na mediana do dia;
+
+Requisitos Não Funcionais:
+
+Após o registro do paciente o contato por whatsapp será feito em até 5 minutos;
+A fila será atualizada após a entrada de cada novo paciente;
+O sistema estará em funcionamento simultâneo com o Hospital;
+Os dados do paciente só poderão ser acessados de fora do sistema interno do hospital via código específico;
+
+Requisitos Funcionais:
+
+Registro de entrada;
+Controle do tempo de atendimento de cada cor de prioridade;
+Cálculo de Tempo de Espera;
+Criação da Ordem da Fila;
+Atualização de Status de tempo de espera;
+Gerar código de acesso para cada novo paciente e acompanhante;
+Enviar mensagens via whatsapp relacionada à posição do paciente na fila;
+
+
+
