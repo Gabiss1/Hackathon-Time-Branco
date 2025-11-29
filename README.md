@@ -6,10 +6,10 @@ Desenvolver e implementar um software de painel interativo integrado ao processo
 ## Objetivos Específicos:
 1. Exibir, em telas instaladas na recepção, o tempo mediano de espera estimado para cada categoria de risco do Protocolo Manchester (azul, verde, amarelo e laranja), de forma didática, acessível e visualmente compreensível;
 2. Integrar o sistema de fluxo de triagem, permitindo que, após a classificação Manchester, o paciente e seu contato de emergência recebam automaticamente informações personalizadas via aplicativo Whatsapp, incluindo:
-- Posição na fila;
-- Número de pacientes na mesma classificação à frente;
-- Tempo médio estimado de espera calculado com base na mediana do dia.
-	3. Permitir envio das atualizações para um acompanhante/contato de emergência previamente cadastrado, garantindo acessibilidade e apoio às famílias durante o atendimento;
+	- Posição na fila;
+	- Número de pacientes na mesma classificação à frente;
+	- Tempo médio estimado de espera calculado com base na mediana do dia.
+3. Permitir envio das atualizações para um acompanhante/contato de emergência previamente cadastrado, garantindo acessibilidade e apoio às famílias durante o atendimento;
 4. Desenvolver mecanismos de atualização automática dos tempos de espera, com base em dados do sistema de atendimento, permitindo que as informações exibidas nas telas e enviadas por WhatsApp reflitam a realidade em tempo real;
 5. Criar uma interface amigável, intuitiva e inclusiva, garantindo que pacientes de diferentes faixas etárias e níveis de letramento compreendam facilmente as informações apresentadas;
 6. Melhorar a transparência e a comunicação entre o hospital e os pacientes ao disponibilizar dados atualizados sobre o fluxo de atendimento, reduzindo angústias e aumentando a satisfação durante o período de espera;
